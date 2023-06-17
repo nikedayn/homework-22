@@ -1,0 +1,55 @@
+.notes_list_item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    .note_and_time {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+}
+
+
+//черная тема
+.black_theme_for_note {
+    background-color: #000;
+    .note_and_time {
+        .time_were_note_was_created {
+            color: aquamarine;
+        }
+    }
+}
+
+//белая тема
+.white_theme_for_note{
+    background-color: #fff;
+    color: #000;
+    .note_and_time {
+        .time_were_note_was_created {
+            color: cornflowerblue;
+        }
+    }
+}
+
+//темно-сланцево-серая тема
+.darkslategray_theme_for_note{
+    background-color: darkslategray;
+    .note_and_time {
+        .time_were_note_was_created {
+            color: lightgreen;
+        }
+    }
+}
+
+//светло желтая тема
+.lightyellow_theme_for_note{
+    background-color: khaki;
+    color: #000;
+    .note_and_time {
+        .time_were_note_was_created {
+            color: darkred;
+        }
+    }
+}

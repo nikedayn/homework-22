@@ -1,0 +1,25 @@
+main {
+    width: 100%;
+    @media (max-width: 1024px) {
+        align-self: center;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: start;
+        @media (max-width: 1024px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .main_page_background {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        right: 0;
+        @media (max-width: 1150px) {
+            display: none;
+        }
+    }
+}
